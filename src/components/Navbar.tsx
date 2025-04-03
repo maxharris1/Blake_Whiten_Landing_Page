@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="flex items-center">
         <img src="/lovable-uploads/6703af04-7193-4c7b-9be2-15205aa596a9.png" alt="Blake Whiten Logo" className="h-32" />
       </div>
-      <div className="hidden md:flex space-x-6 text-white text-sm uppercase tracking-widest">
+      <div className="hidden md:flex space-x-6 text-[#DDAE76] text-sm uppercase tracking-widest">
         <Link to="/#music" className="hover:opacity-80 transition">MUSIC</Link>
         <Link to="/#videos" className="hover:opacity-80 transition">VIDEOS</Link>
         <Link to="/#tour" className="hover:opacity-80 transition">TOUR</Link>
