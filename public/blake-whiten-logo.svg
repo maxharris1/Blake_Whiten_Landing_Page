@@ -1,23 +1,18 @@
 
-<svg width="400" height="150" viewBox="0 0 400 150" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Wings and Star -->
-  <g transform="translate(50, 0)">
-    <!-- Left Wings -->
-    <path d="M150 60C130 55 100 65 80 80C60 95 50 110 40 120C60 110 80 100 100 95C120 90 140 90 150 90L150 60Z" fill="#6e1b21"/>
-    <path d="M150 65C135 60 110 70 95 82C80 94 70 105 65 115C80 105 95 98 110 94C125 90 140 92 150 92L150 65Z" fill="#881c21"/>
-    <path d="M150 70C140 65 120 75 110 84C100 93 90 100 85 110C95 100 105 96 115 93C125 90 140 94 150 94L150 70Z" fill="#6e1b21"/>
+<svg width="400" height="100" viewBox="0 0 400 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Wings and Star Group -->
+  <g transform="translate(150, 10)">
+    <!-- Left Wing -->
+    <path d="M0 40L-70 0L-40 40L0 40Z" fill="#881c21"/>
     
-    <!-- Right Wings -->
-    <path d="M150 60C170 55 200 65 220 80C240 95 250 110 260 120C240 110 220 100 200 95C180 90 160 90 150 90L150 60Z" fill="#6e1b21"/>
-    <path d="M150 65C165 60 190 70 205 82C220 94 230 105 235 115C220 105 205 98 190 94C175 90 160 92 150 92L150 65Z" fill="#881c21"/>
-    <path d="M150 70C160 65 180 75 190 84C200 93 210 100 215 110C205 100 195 96 185 93C175 90 160 94 150 94L150 70Z" fill="#6e1b21"/>
+    <!-- Right Wing -->
+    <path d="M0 40L70 0L40 40L0 40Z" fill="#881c21"/>
     
     <!-- Center Star -->
-    <path d="M150 45L165 75L195 75L171 93L180 125L150 105L120 125L129 93L105 75H135L150 45Z" fill="#e1c9a1"/>
+    <path d="M0 0L5 15L20 15L8 24L12 40L0 30L-12 40L-8 24L-20 15L-5 15L0 0Z" fill="#e1c9a1"/>
   </g>
   
-  <!-- Blake Whiten Text -->
-  <g transform="translate(45, 110)">
-    <text font-family="'Montserrat', sans-serif" font-weight="700" font-size="30" fill="#e1c9a1" letter-spacing="2">BLAKE WHITEN</text>
-  </g>
+  <!-- Text -->
+  <text x="100" y="80" font-family="'Montserrat', sans-serif" font-weight="700" font-size="30" fill="#e1c9a1" letter-spacing="4">BLAKE</text>
+  <text x="220" y="80" font-family="'Montserrat', sans-serif" font-weight="700" font-size="30" fill="#e1c9a1" letter-spacing="4">WHITEN</text>
 </svg>
