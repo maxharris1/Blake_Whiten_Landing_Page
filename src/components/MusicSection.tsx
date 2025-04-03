@@ -2,11 +2,11 @@
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { useState } from "react";
 
-// Mock data - would be replaced with real data in a production app
+// Updated song data with real album art
 const songs = [
-  { id: 1, title: "SONG NAME", coverArt: "https://via.placeholder.com/300/000000/FFFFFF" },
-  { id: 2, title: "COUNTRY ROADS", coverArt: "https://via.placeholder.com/300/000000/FFFFFF" },
-  { id: 3, title: "MIDNIGHT TRAIN", coverArt: "https://via.placeholder.com/300/000000/FFFFFF" },
+  { id: 1, title: "SIX MILE", coverArt: "/lovable-uploads/aeb65232-8cfa-4d07-8b7a-f8ff111d49cc.png" },
+  { id: 2, title: "COUNTRY ROADS", coverArt: "/lovable-uploads/cfaf7f5f-e73c-47e3-be9e-d58998b9018b.png" },
+  { id: 3, title: "MIDNIGHT TRAIN", coverArt: "/lovable-uploads/11ab65cb-0321-4946-b92e-bbde56a5a39b.png" },
 ];
 
 const MusicSection = () => {
@@ -33,11 +33,13 @@ const MusicSection = () => {
           </button>
           
           <div className="text-center">
-            <img 
-              src={currentSong.coverArt} 
-              alt={currentSong.title} 
-              className="w-48 h-48 mx-auto mb-4"
-            />
+            <div className="relative w-64 h-64 mx-auto mb-4 overflow-hidden">
+              <img 
+                src={currentSong.coverArt} 
+                alt={currentSong.title} 
+                className="w-full h-full object-cover"
+              />
+            </div>
             <h3 className="text-xl text-maroon font-medium mb-4">{currentSong.title}</h3>
             <button className="bg-maroon text-white uppercase px-8 py-2 rounded tracking-wider">
               Listen Now
