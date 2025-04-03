@@ -3,12 +3,9 @@ const Hero = () => {
   return (
     <section className="relative h-screen w-full">
       <div 
-        className="absolute inset-0 bg-center"
+        className="absolute inset-0 bg-cover bg-center"
         style={{ 
           backgroundImage: "url('/lovable-uploads/8ad599e2-bdf7-4e55-84c8-3f3671296167.png')",
-          backgroundSize: "contain",
-          backgroundRepeat: "no-repeat",
-          backgroundColor: "black",
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-20"></div>
